@@ -4,9 +4,9 @@ def line (katz_deli)
   else
     #puts "The line is currently: 1. #{katz_deli[0]} 2. #{katz_deli[1]} 3. #{katz_deli[2]}"
 	#end
-    message= "The line is currently:#{message1}"
+    message= "The line is currently:"
     katz_deli.each_with_index do |value, index|
-      message1= " #{index.to_i+1}. #{value}"
+      message += " #{index+1}. #{value}"
 end
 puts message
 end
