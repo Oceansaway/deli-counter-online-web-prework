@@ -1,4 +1,4 @@
 def line ()
   katz_deli=[]
-  puts "The line is empty."
+  puts "The line is currently empty."
 end
